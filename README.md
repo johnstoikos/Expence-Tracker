@@ -1,7 +1,7 @@
-Expense Tracker Android App
+# Expense Tracker Android App
 
 A simple and efficient Android expense tracking application built with Java and Android Studio.
-📱 App Features
+ App Features
 
     Add Expenses: Record daily expenses with description, amount, category, and date
 
@@ -13,7 +13,7 @@ A simple and efficient Android expense tracking application built with Java and 
 
     Data Persistence: All data is saved locally using SharedPreferences
 
-🛠️ Technical Details
+## Technical Details
 
     Language: Java
 
@@ -25,8 +25,8 @@ A simple and efficient Android expense tracking application built with Java and 
 
     UI: Material Design components
 
-📊 Features Overview
-Main Features:
+## Features Overview
+### Main Features:
 
     Add new expenses with category selection
 
@@ -46,7 +46,7 @@ Main Features:
 
         Day with lowest expenses
 
-Categories:
+## Categories:
 
     Food
 
@@ -60,7 +60,7 @@ Categories:
 
     Other
 
-🚀 Installation
+## Installation
 
     Clone or download this project
 
@@ -70,25 +70,10 @@ Categories:
 
     The app supports Android 5.0 (API 21) and above
 
-📁 Project Structure
-text
 
-app/
-├── src/main/java/com/example/expensetracker/
-│   ├── MainActivity.java          # Main screen with expense list
-│   ├── AddExpenseActivity.java    # Add new expense screen
-│   ├── Expense.java               # Expense data model
-│   └── ExpenseManager.java        # Data management with SharedPreferences
-├── src/main/res/layout/
-│   ├── activity_main.xml          # Main activity layout
-│   └── activity_add_expense.xml   # Add expense layout
-└── src/main/res/values/
-    ├── colors.xml                 # Color definitions
-    └── themes.xml                 # App theme
+## Data Storage
 
-💾 Data Storage
-
-The app uses Android's SharedPreferences for data persistence, providing:
+### The app uses Android's SharedPreferences for data persistence, providing:
 
     Simple key-value storage
 
@@ -98,7 +83,7 @@ The app uses Android's SharedPreferences for data persistence, providing:
 
     Automatic data persistence between app sessions
 
-🎨 UI/UX Design
+## UI/UX Design
 
     Clean Material Design interface
 
@@ -108,22 +93,23 @@ The app uses Android's SharedPreferences for data persistence, providing:
 
     Intuitive navigation and user flow
 
-📈 Statistics Calculation
+## Statistics Calculation
 
-The app provides comprehensive statistics:
-Weekly Statistics:
+### The app provides comprehensive statistics:
+
+### Weekly Statistics:
 
     Calculates expenses for the last 7 days
 
     Shows total, average, highest, and lowest spending days
 
-Monthly Statistics:
+### Monthly Statistics:
 
     Calculates expenses for the last 30 days
 
     Provides overview of monthly spending habits
 
-🔧 Development Notes
+### Development Notes
 
     Built as a university project for Android development course
 
@@ -132,10 +118,10 @@ Monthly Statistics:
     Uses modern Android development conventions
 
     Implements proper activity lifecycle management
-
-📄 License
+## License
 
 This project was developed for educational purposes as part of a university assignment.
-👨‍💻 Developer
+
+## Developer
 
 University Student - Android Development Course Project
