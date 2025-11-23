@@ -73,7 +73,7 @@ A simple and efficient Android expense tracking application built with Java and 
 
 ## Data Storage
 
-### The app uses Android's SharedPreferences for data persistence, providing:
+The app uses Android's SharedPreferences for data persistence, providing:
 
     Simple key-value storage
 
